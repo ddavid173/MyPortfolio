@@ -1,0 +1,14 @@
+.pageBody {
+    display: flex;
+    border-radius: 1rem;
+    background-color: rgb(39, 39, 39);
+    margin-top: 4vw;
+}
+
+p {
+    color: antiquewhite;
+    margin: auto;
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+
+}

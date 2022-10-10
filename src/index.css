@@ -1,0 +1,22 @@
+body {
+  font: 14px "Verdana", Futura, sans-serif;
+  margin: 5vw;
+  background-color: rgb(60, 60, 60);
+}
+
+.game {
+  border-radius: 1rem;
+  background-color: black;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+  width: 88vw;
+  height: 88vh;
+}
+
+.player {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+}

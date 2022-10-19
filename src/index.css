@@ -4,14 +4,6 @@ body {
   background-color: rgb(60, 60, 60);
 }
 
-.game {
-  border-radius: 1rem;
-  background-color: black;
-  margin: auto;
-  margin-bottom: 1vh;
-  margin-top: 1vh;
-}
-
 .player {
   width: 10px;
   height: 10px;

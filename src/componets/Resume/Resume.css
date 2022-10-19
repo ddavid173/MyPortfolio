@@ -5,6 +5,16 @@
     margin-top: 4vw;
 }
 
+.game {
+    border-radius: 1rem;
+    background-image: url("../../Images/Flat Night 2 BG.png");
+    background-color: black;
+    background-size: auto 60vh;
+    margin: auto;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+
 p {
     color: antiquewhite;
     margin: auto;

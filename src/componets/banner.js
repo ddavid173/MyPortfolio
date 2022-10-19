@@ -12,7 +12,7 @@ class Banner extends React.Component {
                 </div>
                 <div className='BannerTop'>
                     <div className='header'>
-                        <p className="name">Hello World</p>
+                        <p className="name">Yes,This Is David</p>
                     </div>
                     <div>
                         <li>

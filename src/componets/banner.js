@@ -2,29 +2,6 @@ import React from 'react';
 import './banner.css';
 import me from "../Images/david.jpg";
 
-// class Pages extends React.Component {
-//     render() {
-//         return (
-//             <>
-//                 <li>
-//                     <ul>
-//                         <button onClick={() => {console.log("hello")}}>About Me</button>
-//                     </ul>
-//                     <ul>
-//                         <button onClick={() => {console.log("hello")}}>Portfolio</button>
-//                     </ul>
-//                     <ul>
-//                         <button onClick={() => {console.log("hello")}}>Contact Me</button>
-//                     </ul>
-//                     <ul>
-//                         <button onClick={() => {console.log("hello")}}>Resume</button>
-//                     </ul>
-//                 </li>
-//             </>
-//         )
-//     }
-// }
-
 class Banner extends React.Component {
 
     render() {

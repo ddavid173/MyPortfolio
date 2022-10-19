@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import {Banner} from "./componets/banner"
 import {AboutMe} from "./componets/AboutMe"
-import {Resume} from "./componets/Resume"
+import {Resume} from "./componets/Resume/Resume"
 import {Contact} from "./componets/Contact"
 import {Portfolio} from "./componets/Portfolio"
 

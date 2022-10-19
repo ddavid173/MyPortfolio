@@ -7,12 +7,9 @@ body {
 .game {
   border-radius: 1rem;
   background-color: black;
-  margin-right: 1vw;
-  margin-left: 1vw;
+  margin: auto;
   margin-bottom: 1vh;
   margin-top: 1vh;
-  width: 88vw;
-  height: 88vh;
 }
 
 .player {

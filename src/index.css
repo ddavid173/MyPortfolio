@@ -1,6 +1,9 @@
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   font: 14px "Verdana", Futura, sans-serif;
-  margin: 5vw;
   background-color: rgb(60, 60, 60);
 }
 
@@ -8,4 +11,27 @@ body {
   width: 10px;
   height: 10px;
   background-color: white;
+}
+
+.main-body {
+  visibility: hidden;
+  margin: auto;
+  margin-top: 19vh;
+  scale: no;
+  overflow: hidden;
+}
+
+.banner {
+  visibility: visible;
+  margin-top: min(18vw, 18vh);
+  align-self: center;
+  justify-self: center;
+}
+
+.mainBack {
+  width: 4vw;
+  height: 4vw;
+  margin-left: 1vw;
+  margin-top: 1vw;
+  position: absolute;
 }

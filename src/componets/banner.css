@@ -1,19 +1,13 @@
 .BannerFull {
-    display: flex;
-    border-radius: 1rem;
+    border-radius: 20rem;
     background-color: rgb(39, 39, 39);
-}
-
-.BannerTop {
-    display: inline-block;
+    display: inline-grid;
+    grid-template-rows: min(20vw, 20vh) min(20vw, 20vh) min(20vw, 20vh);
+    grid-template-columns: min(20vw, 20vh) min(20vw, 20vh) min(20vw, 20vh);
+    grid-gap: min(2vw, 2vh);
+    margin: auto;
     align-items: center;
-    width: 88vw;
-}
-
-.header {
-    width: 100%;
-    height: 8vw;
-    display: flex;
+    justify-items: center;
 }
 
 .logo {

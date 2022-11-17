@@ -12,19 +12,27 @@ class Main extends React.Component {
         super(props);
         this.state = {
           pages: [<AboutMe />, <Portfolio />, <Contact />, <Resume />],
-          value: 0
+          value: 0,
+          isSelected: false
         };
       }
 
     handleClick(i) {
-        this.setState({value: i});
+        this.setState({
+            value: i,
+            isSelected: true
+        });
+        document.getElementById("Body").style.visibility = "Visible"
+        document.getElementById("banner").style.visibility = "hidden"
     }
     
     render() {
+
         return (
-            <>
-                <Banner click={(i) => this.handleClick(i)}/>
-                <div>
+            <>  <div className='banner' id="banner">
+                    <Banner click={(i) => this.handleClick(i)}/>
+                </div>
+                <div className='main-body' id="Body" >
                     {this.state.pages[this.state.value]}
                 </div>
             </>
